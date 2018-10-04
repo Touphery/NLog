@@ -13,7 +13,7 @@ namespace NLogDemo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            logger.Info("Page_Load called");
+            logger.Info("Page_Load called tested");
             if (!this.IsPostBack)
             {
                 this.textboxOperand1.Text = "1";
